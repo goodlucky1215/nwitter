@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+#이걸 하는 이유는 나의 key들을 적어도 github에서 만큼은 안보이도록 설정
+#물론 결국 내 홈페이지에 접속하면 볼 수 밖에 없지만(아주 작은 보안을 위한 작업)
+#.env파일의 이름들은 리액트로 만들땐, 무조건 REACT_APP_을 적어서 작성해줘야함.
+.env
